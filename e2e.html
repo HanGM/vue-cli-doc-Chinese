@@ -1,0 +1,395 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>端到端测试 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-theme-vuejs/vue.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="prerender.html" />
+    
+    
+    <link rel="prev" href="unit.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    vue-cli webpack模板中文教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="structure.html">
+            
+                <a href="structure.html">
+            
+                    
+                    项目结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="commands.html">
+            
+                <a href="commands.html">
+            
+                    
+                    构建命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="linter.html">
+            
+                <a href="linter.html">
+            
+                    
+                    编程风格配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="pre-processors.html">
+            
+                <a href="pre-processors.html">
+            
+                    
+                    预处理器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="static.html">
+            
+                <a href="static.html">
+            
+                    
+                    静态资源处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="env.html">
+            
+                <a href="env.html">
+            
+                    
+                    环境变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="backend.html">
+            
+                <a href="backend.html">
+            
+                    
+                    集成后端框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="proxy.html">
+            
+                <a href="proxy.html">
+            
+                    
+                    开发环境代理api
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="unit.html">
+            
+                <a href="unit.html">
+            
+                    
+                    单元测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.11" data-path="e2e.html">
+            
+                <a href="e2e.html">
+            
+                    
+                    端到端测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="prerender.html">
+            
+                <a href="prerender.html">
+            
+                    
+                    SEO预渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >端到端测试</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x7AEF;&#x5230;&#x7AEF;&#x6D4B;&#x8BD5;">&#x7AEF;&#x5230;&#x7AEF;&#x6D4B;&#x8BD5;</h1>
+<p>&#x672C;&#x6A21;&#x677F;&#x4F7F;&#x7528;&#x7684;&#x662F;<a href="http://nightwatchjs.org" target="_blank">Nightwatch.js</a>&#x6765;&#x505A;&#x7AEF;&#x5230;&#x7AEF;&#x6D4B;&#x8BD5;&#x3002;Nightwatch.js&#x662F;&#x4E00;&#x4E2A;&#x9AD8;&#x5EA6;&#x96C6;&#x6210;&#x5230;Selenium&#x7684;&#x7AEF;&#x5230;&#x7AEF;&#x6D4B;&#x8BD5;&#x3002;&#x672C;&#x6A21;&#x677F;&#x4E3A;&#x4F60;&#x5E26;&#x6765;&#x4E86;Selenium&#x670D;&#x52A1;&#x5668;&#x548C;chromedriver&#x4E8C;&#x8FDB;&#x5236;&#x6587;&#x4EF6;&#x7684;&#x9884;&#x914D;&#x7F6E;&#xFF0C;&#x6240;&#x4EE5;&#x4F60;&#x4E0D;&#x9700;&#x8981;&#x7BA1;&#x8FD9;&#x90E8;&#x5206;&#x3002;</p>
+<p>&#x8BA9;&#x6211;&#x4EEC;&#x770B;&#x4E00;&#x4E0B; <code>test/e2e</code> &#x76EE;&#x5F55;&#x7684;&#x6587;&#x4EF6;&#x5427;&#xFF1A;</p>
+<ul>
+<li><p><code>runner.js</code></p>
+<p>&#x8FD0;&#x884C;&#x4E00;&#x4E2A;&#x5F00;&#x53D1;&#x670D;&#x52A1;&#x5668;&#x7684;nodejs&#x811A;&#x672C;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x4E0A;&#x9762;&#x8DD1;Nightwatch&#x3002;&#x8FD9;&#x662F;&#x4F60;&#x8FD0;&#x884C;<code>npm run e2e</code>&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;&#x3002;</p>
+</li>
+<li><p><code>nightwatch.conf.js</code></p>
+<p>Nightwatch&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x3002;&#x5728; <a href="http://nightwatchjs.org/guide#settings-file" target="_blank">Nightwatch&apos;s &#x914D;&#x7F6E;&#x6587;&#x4EF6;</a> &#x4E2D;&#x67E5;&#x770B;&#x66F4;&#x591A;&#x7EC6;&#x8282;&#x3002;</p>
+</li>
+<li><p><code>custom-assertions/</code></p>
+<p>&#x53EF;&#x7528;&#x4E8E;Nightwatch&#x6D4B;&#x8BD5;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x65AD;&#x8A00;&#x3002;&#x5728; <a href="http://nightwatchjs.org/guide#writing-custom-assertions" target="_blank">Nightwatch&apos;s &#x7F16;&#x5199;&#x81EA;&#x5B9A;&#x4E49;&#x65AD;&#x8A00;&#x6587;&#x6863;</a> &#x4E2D;&#x67E5;&#x770B;&#x66F4;&#x591A;&#x7EC6;&#x8282;&#x3002;</p>
+</li>
+<li><p><code>specs/</code></p>
+<p>&#x4F60;&#x7684;&#x5B9E;&#x9645;&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;! &#x5728; <a href="http://nightwatchjs.org/guide#writing-tests" target="_blank">Nightwatch&apos;&#x7F16;&#x5199;&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;&#x6587;&#x6863;</a> &#x548C; <a href="http://nightwatchjs.org/api" target="_blank">API &#x53C2;&#x8003;</a> &#x4E2D;&#x67E5;&#x770B;&#x66F4;&#x591A;&#x7EC6;&#x8282;&#x3002;</p>
+</li>
+</ul>
+<h3 id="&#x5728;&#x66F4;&#x591A;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x8FD0;&#x884C;&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;">&#x5728;&#x66F4;&#x591A;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x8FD0;&#x884C;&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;</h3>
+<p>&#x8981;&#x914D;&#x7F6E;&#x6D4F;&#x89C8;&#x5668;&#x6765;&#x8FD0;&#x884C;&#x6D4B;&#x8BD5;&#xFF0C;&#x9700;&#x8981;&#x5728;<a href="https://github.com/vuejs-templates/webpack/blob/master/template/test/e2e/nightwatch.conf.js#L17-L39" target="_blank"><code>test/e2e/nightwatch.conf.js</code></a>&#x6587;&#x4EF6;&#x4E2D;&#x7684;&quot;test_settings&quot;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x5165;&#x53E3;&#xFF0C;&#x8FD8;&#x9700;&#x8981;&#x5728;&#x8FD0;&#x884C;<a href="https://github.com/vuejs-templates/webpack/blob/master/template/test/e2e/runner.js#L15" target="_blank"><code>test/e2e/runner.js</code></a>&#x811A;&#x672C;&#x65F6;&#x6DFB;&#x52A0;<code>--env</code>&#x6807;&#x7B7E;&#x3002;&#x5982;&#x679C;&#x4F60;&#x60F3;&#x50CF;SauceLabs&#x4E00;&#x6837;&#x914D;&#x7F6E;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x7684;&#x8FDC;&#x7A0B;&#x6D4B;&#x8BD5;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x57FA;&#x4E8E;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x7684;&#x6761;&#x4EF6;&#x4FEE;&#x6539;Nightwatch&#x7684;&#x914D;&#x7F6E;&#xFF0C;&#x6216;&#x4F7F;&#x7528;&#x4E00;&#x4E2A;&#x5355;&#x72EC;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x3002;&#x5728;<a href="http://nightwatchjs.org/guide#selenium-settings" target="_blank">Nightwatch&apos;s docs on Selenium</a>&#x4E2D;&#x67E5;&#x8BE2;&#x66F4;&#x591A;&#x7EC6;&#x8282;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="unit.html" class="navigation navigation-prev " aria-label="Previous page: 单元测试">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="prerender.html" class="navigation navigation-next " aria-label="Next page: SEO预渲染">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"端到端测试","level":"1.11","depth":1,"next":{"title":"SEO预渲染","level":"1.12","depth":1,"path":"prerender.md","ref":"prerender.md","articles":[]},"previous":{"title":"单元测试","level":"1.10","depth":1,"path":"unit.md","ref":"unit.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","theme-vuejs@git+https://github.com/pearofducks/gitbook-plugin-theme-vuejs.git","-fontsettings","github"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit This Page","base":"https://github.com/loulanyijian/vue-cli-doc-Chinese"},"github":{"url":"https://github.com/loulanyijian/vue-cli-doc-Chinese"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-vuejs":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"links":{"sharing":{"facebook":false,"twitter":false}},"gitbook":">3.0.0"},"file":{"path":"e2e.md","mtime":"2017-03-13T09:22:01.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-13T10:48:10.045Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
