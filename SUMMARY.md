@@ -1,6 +1,6 @@
-# vue-cli webpack模板中文教程
+# vue-cli webpack模板中文文档
 
-- [vue-cli webpack模板中文教程](README.md)
+- [vue-cli webpack模板中文文档](README.md)
 <!-- - [Project Structure](structure.md) -->
 - [项目结构](structure.md)
 <!-- - [Build Commands](commands.md) -->

@@ -1,4 +1,4 @@
-## vue-cli webpack模板中文教程
+## vue-cli webpack模板中文文档
 
 > 译者：楼兰一剑——乐视云计算大前端组  
 
