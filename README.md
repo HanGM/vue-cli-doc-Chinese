@@ -2,7 +2,7 @@
 
 > 译者：楼兰一剑——乐视云计算大前端组  
 
-> [本文gitbook地址查阅](https://loulanyijian.gitbooks.io/vue-cli-doc-chinese/content/)
+> [本文gitbook地址查阅](https://loulanyijian.github.io/vue-cli-doc-Chinese/)
 
 > 译者注：要本地查看本教程，需要npm全局安装gitbook —— clone到本地 —— gitbook install —— gitbook serve
 
